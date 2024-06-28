@@ -51,7 +51,7 @@ def creat_report(number):
 
 
 if __name__ == '__main__':
-    number = 1
+    number = 5
     try:
         creat_report(int(number))
     except Exception as e:
